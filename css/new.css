@@ -80,6 +80,7 @@ main{
 margin-top: 116px;
 background-color: #FFF8F3;
 padding: 145px 125px 147px 178px;
+margin-bottom: 144px;
 }
 .about-title{
   text-align: center;
@@ -103,5 +104,35 @@ padding: 145px 125px 147px 178px;
   font-size: 20px;
   font-weight: bold;
 }
+/* What I Do Section */
+.what-i-do{
 
+}
+.wid-title{
+ font-size: 35px;
+ text-align: center;
+}
+.wid-desc{
+height: 90px;
+margin: 30px 0 40px 0;
+
+text-align: center;
+}
+.skill-container{
+  display: flex;
+  gap: 25px;
+}
+.skill{
+padding: 30px;
+border: 1px solid green;
+border-radius: 5px;
+box-shadow: gray;
+}
+.skill-title{
+font-size: 20px;
+margin: 30px 0 20px 0;
+}
+.skill-desc{
+
+}
 
