@@ -135,4 +135,91 @@ margin: 30px 0 20px 0;
 .skill-desc{
 
 }
+/* Resume */
+.summary{
+  margin-top: 130px;
+}
+.resume{
+  display: flex;
+  gap: 70px;
+}
+.resume-title{
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 113px;
+}
+.resume-head{
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.edu-title{
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.name{
+  font-size: 20px;
+  font-weight: 500px;
+  margin-bottom: 20px;
+}
+.edu-desc{
+  
+}
+.my-edu{
+  border-bottom: 1px solid black;
+  padding-right: 40px;
+  padding-bottom: 30px
+}
+.my-ex{
 
+  border-bottom: 1px solid black;
+  padding-right: 40px;
+  padding-bottom: 30px;
+}
+#resum{
+  margin-top: 40px;
+ 
+}
+.ntn{
+ text-align: center;
+}
+/* Footer */
+footer{
+  background-color: #FFF8F3;
+  margin-top: 115px;
+  padding-top: 130px;
+  padding-bottom: 130px;
+}
+.foot{
+  display: flex;
+  justify-content: space-evenly;
+}
+.left-title{
+  font-size: 35px;
+  margin-bottom: 28px;
+}
+.left-desc{
+ width: 562px;
+ height: 56px;
+}
+#name{
+width: 461px;
+height: 64px;
+}
+#email{
+ margin: 24px 0 24px 0;
+ width: 461px;
+height: 64px;
+}
+#area{
+  width: 461px;
+  height: 180px;
+  margin-bottom: 24px;
+  border: 0;
+}
+:placeholder-shown{
+  font-size: 20px;
+  padding-left: 30px;
+}
+input{
+  border: 0;
+}
