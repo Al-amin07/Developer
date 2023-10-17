@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color:#FFF8F3;
+    background-image: url('/images/header_bg.png') , url('/images/developer.png');
+    background-repeat: no-repeat;
+    background-position: right bottom, left;
+}
+.nav_ber{
+display: flex;
+justify-content: space-between;
+padding: 60px 230px 60px 230px;
+align-items: center;
+}
+nav ul{
+ display: flex;
+ align-items: center;
+}
+nav li{
+    list-style-type: none;
+    margin-right: 70px;
+    font-size: 20px;
+}
+.nav-title{
+    font-size: 45px;
+}
+span{
+    color: #ee5d0f;
+}
+.btn{
+    font-size: 20px;
+    height: 50px;
+    color: white;
+    background-color: #ee5d0f;
+    border: 0;
+    border-radius: 5px;
+    padding: 0 20px 0 20px;
+}
+/* Banner Part */
+.header-banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px 0px 230px;
+}
+.banner{
+
+}
+.banner-sub{
+font-size: 45px;
+}
+.banner-title{
+font-size: 85px;
+margin: 5px 0 20px 0;
+}
+.banner-desc{
+    font-size: 18px;
+    margin-bottom: 30px;
+    width: 585px;
+    height: 60px;
+}
+.cont{
+    color: #ee5d0f;
+   font-size: 20px;
+   height: 50px;
+   border: 1px solid #ee5d0f;
+   border-radius: 5px;
+   padding: 0 20px 0 20px;
+   margin-left: 30px;
+}
+
+
+
+/* Main */
+main{
+max-width: 1150px;
+margin: 0 auto;
+}
+
+/* About Section */
+
+section{
+    margin-top: 130px;
+
+}
+.about{
+    padding: 130px 160px 130px 180px;
+    background-color: #FFF8F3;
+}
+.about-title{
+font-size: 35px;
+text-align: center;
+}
+.about-desc{
+height: 120px;
+width: 827px;
+font-size: 18px;
+text-align: center;
+margin-top: 44px;
+
+
+}
+.about-details{
+display: flex;
+justify-content: space-evenly;
+}
+.about-para{
+font-size: 20px;
+font-weight: 300;
+}
+.about-head{
+font-size: 20px;
+}
+
+/* What i Do Section */
+.what-i-do{
+
+}
+.wid-title{
+font-size: 35px;
+text-align: center;
+}
+.wid-desc{
+    text-align: center;
+height: 90px;
+
+font-size: 18px;
+margin: 30px 0 50px 20px;
+font-weight: 300;
+
+}
+.skill-container{
+    display: flex;
+    gap: 24px;
+    /* justify-content: space-evenly; */
+}
+.skill-title{
+font-size: 20px;
+margin: 30px 0 20px 0;
+
+}
+.skill-desc{
+
+width: 204px;
+
+}
+.skill{
+    height: 377px;
+    width: 267px;
+    padding: 30px 33px;
+    border: 1px solid silver;
+    box-shadow: wheat;
+    border-radius: 5px;
+}
+
+
+/* Summary Section */
+.qualification{
+    display: flex;
+   justify-content: space-between;
+}
+.same{
+    font-size: 35px;
+    margin-bottom: 40px;
+}
+.title{
+font-size: 25px;
+
+}
+.desc{
+width: 511px;
+font-weight: 300px;
+margin-bottom: 30px;
+}
+.name{
+ font-size: 20px;
+ font-weight: 300;
+ margin-bottom: 20px;
+}
+.my-edu{
+    padding-right: 47px;
+    padding-bottom: 30px;
+}
+.down{
+    text-align: center;
+}
+/* Foooter */
+footer{
+    margin-top: 130px;
+    background-color: #FFF8F3;
+}
+.dive{
+    display: flex;
+    padding: 130px 242px 218px;
+    justify-content: space-between;
+}
+.left-title{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+input{
+    display: block;
+    height: 64px;
+    width: 461px;
+   
+}
+.left-desc{
+    width: 562px;
+}
+textarea{
+    height: 180px;
+    width: 461px;
+}
+.same-1{
+    border: 0;
+    margin-bottom: 24px;
+    border-radius: 5px;
+}
+::placeholder{
+    font-size: 20px;
+    padding-left: 20px;
+}
